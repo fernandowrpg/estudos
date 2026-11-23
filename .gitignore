@@ -6,3 +6,6 @@ coverage/
 .env
 .env.*
 /*.png
+.angular/
+*.tsbuildinfo
+.nyc_output/

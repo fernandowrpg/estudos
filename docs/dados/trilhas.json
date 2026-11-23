@@ -21,37 +21,83 @@
           "trelloUrl": "https://trello.com/c/Aa8Sl1WK/1-testes-angular-1-jasmine-e-karma-fundamentos",
           "objetivo": "Dominar TestBed, a sintaxe describe/it/expect, spies e mocks; entender o papel do Karma como runner legado (depreciado no Angular 21+).",
           "notas": "notas/testes-angular/01-jasmine-karma.md",
+          "projeto": "projetos/testes-angular/01-jasmine-karma",
           "recursos": [
-            { "titulo": "Alura · Angular: testes automatizados com Jasmine e Karma", "url": "https://www.alura.com.br/curso-online-angular-testes-automatizados-jasmin-karma" },
-            { "titulo": "Angular docs · Testing", "url": "https://angular.dev/guide/testing" },
-            { "titulo": "Jasmine · matchers", "url": "https://jasmine.github.io/api/edge/matchers.html" }
+            {
+              "titulo": "Alura · Angular: testes automatizados com Jasmine e Karma",
+              "url": "https://www.alura.com.br/curso-online-angular-testes-automatizados-jasmin-karma"
+            },
+            {
+              "titulo": "Angular docs · Testing",
+              "url": "https://angular.dev/guide/testing"
+            },
+            {
+              "titulo": "Jasmine · matchers",
+              "url": "https://jasmine.github.io/api/edge/matchers.html"
+            }
           ],
           "sessoes": [
             {
               "titulo": "Sessão 1 · Ambiente e primeiros specs",
               "itens": [
-                { "texto": "Criar/abrir um projeto de treino e rodar `ng test`", "feito": false },
-                { "texto": "Anatomia de um arquivo `.spec.ts`: describe, it, beforeEach", "feito": false },
-                { "texto": "Matchers do Jasmine: toBe, toEqual, toContain, toThrow", "feito": false },
-                { "texto": "Testar uma função/classe pura sem TestBed", "feito": false }
+                {
+                  "texto": "Criar/abrir um projeto de treino e rodar `ng test`",
+                  "feito": false
+                },
+                {
+                  "texto": "Anatomia de um arquivo `.spec.ts`: describe, it, beforeEach",
+                  "feito": false
+                },
+                {
+                  "texto": "Matchers do Jasmine: toBe, toEqual, toContain, toThrow",
+                  "feito": false
+                },
+                {
+                  "texto": "Testar uma função/classe pura sem TestBed",
+                  "feito": false
+                }
               ]
             },
             {
               "titulo": "Sessão 2 · TestBed e componentes",
               "itens": [
-                { "texto": "`TestBed.configureTestingModule` e `createComponent`", "feito": false },
-                { "texto": "fixture, `detectChanges()` e o ciclo de vida no teste", "feito": false },
-                { "texto": "Consultar o DOM com DebugElement e `By.css`", "feito": false },
-                { "texto": "Testar @Input, @Output e emissão de eventos", "feito": false }
+                {
+                  "texto": "`TestBed.configureTestingModule` e `createComponent`",
+                  "feito": false
+                },
+                {
+                  "texto": "fixture, `detectChanges()` e o ciclo de vida no teste",
+                  "feito": false
+                },
+                {
+                  "texto": "Consultar o DOM com DebugElement e `By.css`",
+                  "feito": false
+                },
+                {
+                  "texto": "Testar @Input, @Output e emissão de eventos",
+                  "feito": false
+                }
               ]
             },
             {
               "titulo": "Sessão 3 · Spies, mocks e assincronia",
               "itens": [
-                { "texto": "`jasmine.createSpy` e `createSpyObj`", "feito": false },
-                { "texto": "Substituir dependências por provedores fake no TestBed", "feito": false },
-                { "texto": "`fakeAsync` + `tick()` e `waitForAsync` + `whenStable()`", "feito": false },
-                { "texto": "Anotar: por que o Karma foi depreciado e o que muda com Vitest", "feito": false }
+                {
+                  "texto": "`jasmine.createSpy` e `createSpyObj`",
+                  "feito": false
+                },
+                {
+                  "texto": "Substituir dependências por provedores fake no TestBed",
+                  "feito": false
+                },
+                {
+                  "texto": "`fakeAsync` + `tick()` e `waitForAsync` + `whenStable()`",
+                  "feito": false
+                },
+                {
+                  "texto": "Anotar: por que o Karma foi depreciado e o que muda com Vitest",
+                  "feito": false
+                }
               ]
             }
           ]
@@ -64,35 +110,75 @@
           "trelloUrl": "https://trello.com/c/BPsgQXJO/2-testes-angular-2-jest",
           "objetivo": "Configurar Jest num projeto Angular e testar serviços, componentes e interceptors.",
           "notas": "notas/testes-angular/02-jest.md",
+          "projeto": "projetos/testes-angular/02-jest",
           "recursos": [
-            { "titulo": "Alura · Angular: implemente testes de unidade com Jest", "url": "https://www.alura.com.br/curso-online-angular-implemente-testes-unidade-jest" },
-            { "titulo": "jest-preset-angular", "url": "https://thymikee.github.io/jest-preset-angular/" },
-            { "titulo": "Jest · API de mocks", "url": "https://jestjs.io/docs/mock-functions" }
+            {
+              "titulo": "Alura · Angular: implemente testes de unidade com Jest",
+              "url": "https://www.alura.com.br/curso-online-angular-implemente-testes-unidade-jest"
+            },
+            {
+              "titulo": "jest-preset-angular",
+              "url": "https://thymikee.github.io/jest-preset-angular/"
+            },
+            {
+              "titulo": "Jest · API de mocks",
+              "url": "https://jestjs.io/docs/mock-functions"
+            }
           ],
           "sessoes": [
             {
               "titulo": "Sessão 1 · Trocar Karma por Jest",
               "itens": [
-                { "texto": "Instalar jest, jest-preset-angular e tipos", "feito": false },
-                { "texto": "`setup-jest.ts`, `jest.config.ts` e ajustes no tsconfig.spec", "feito": false },
-                { "texto": "Remover Karma/karma.conf e ajustar os scripts do package.json", "feito": false },
-                { "texto": "Rodar a suíte existente no Jest e corrigir o que quebrar", "feito": false }
+                {
+                  "texto": "Instalar jest, jest-preset-angular e tipos",
+                  "feito": false
+                },
+                {
+                  "texto": "`setup-jest.ts`, `jest.config.ts` e ajustes no tsconfig.spec",
+                  "feito": false
+                },
+                {
+                  "texto": "Remover Karma/karma.conf e ajustar os scripts do package.json",
+                  "feito": false
+                },
+                {
+                  "texto": "Rodar a suíte existente no Jest e corrigir o que quebrar",
+                  "feito": false
+                }
               ]
             },
             {
               "titulo": "Sessão 2 · Serviços, HTTP e interceptors",
               "itens": [
-                { "texto": "Testar serviço com `provideHttpClientTesting` + HttpTestingController", "feito": false },
-                { "texto": "`expectOne`, `flush`, `verify` e cenários de erro (500, timeout)", "feito": false },
-                { "texto": "Testar um interceptor funcional (token, retry, erro)", "feito": false }
+                {
+                  "texto": "Testar serviço com `provideHttpClientTesting` + HttpTestingController",
+                  "feito": false
+                },
+                {
+                  "texto": "`expectOne`, `flush`, `verify` e cenários de erro (500, timeout)",
+                  "feito": false
+                },
+                {
+                  "texto": "Testar um interceptor funcional (token, retry, erro)",
+                  "feito": false
+                }
               ]
             },
             {
               "titulo": "Sessão 3 · Componentes no Jest e comparação",
               "itens": [
-                { "texto": "`jest.fn()`, `jest.spyOn()` e módulos mockados", "feito": false },
-                { "texto": "Snapshots: quando ajudam e quando viram ruído", "feito": false },
-                { "texto": "Anotar a tabela Jasmine/Karma × Jest × Vitest", "feito": false }
+                {
+                  "texto": "`jest.fn()`, `jest.spyOn()` e módulos mockados",
+                  "feito": false
+                },
+                {
+                  "texto": "Snapshots: quando ajudam e quando viram ruído",
+                  "feito": false
+                },
+                {
+                  "texto": "Anotar a tabela Jasmine/Karma × Jest × Vitest",
+                  "feito": false
+                }
               ]
             }
           ]
@@ -105,29 +191,66 @@
           "trelloUrl": "https://trello.com/c/1tgO6lAA/3-testes-angular-3-angular-moderno-signals-http-harnesses-cobertura",
           "objetivo": "Testar componentes com Signals, HTTP, rotas e component harnesses; ligar code coverage e conhecer o Vitest, runner padrão do Angular 21+.",
           "notas": "notas/testes-angular/03-angular-moderno.md",
+          "projeto": "projetos/testes-angular/03-angular-moderno",
           "recursos": [
-            { "titulo": "Udemy · Angular Testing In Depth (Signals Edition)", "url": "https://www.udemy.com/course/angular-testing-course/" },
-            { "titulo": "Alura · Angular: avançando em testes automatizados", "url": "https://www.alura.com.br/curso-online-angular-avancando-testes-automatizados" },
-            { "titulo": "Angular docs · Component harnesses", "url": "https://material.angular.dev/guide/using-component-harnesses" },
-            { "titulo": "Vitest", "url": "https://vitest.dev" }
+            {
+              "titulo": "Udemy · Angular Testing In Depth (Signals Edition)",
+              "url": "https://www.udemy.com/course/angular-testing-course/"
+            },
+            {
+              "titulo": "Alura · Angular: avançando em testes automatizados",
+              "url": "https://www.alura.com.br/curso-online-angular-avancando-testes-automatizados"
+            },
+            {
+              "titulo": "Angular docs · Component harnesses",
+              "url": "https://material.angular.dev/guide/using-component-harnesses"
+            },
+            {
+              "titulo": "Vitest",
+              "url": "https://vitest.dev"
+            }
           ],
           "sessoes": [
             {
               "titulo": "Semana A · Signals e HTTP",
               "itens": [
-                { "texto": "Testar `signal`, `computed` e `linkedSignal`", "feito": false },
-                { "texto": "`effect` em teste: `TestBed.runInInjectionContext` e `TestBed.tick()`", "feito": false },
-                { "texto": "Testar `resource`/`httpResource` (loading, erro, reload)", "feito": false },
-                { "texto": "Testar um store de signals (serviço com estado)", "feito": false }
+                {
+                  "texto": "Testar `signal`, `computed` e `linkedSignal`",
+                  "feito": false
+                },
+                {
+                  "texto": "`effect` em teste: `TestBed.runInInjectionContext` e `TestBed.tick()`",
+                  "feito": false
+                },
+                {
+                  "texto": "Testar `resource`/`httpResource` (loading, erro, reload)",
+                  "feito": false
+                },
+                {
+                  "texto": "Testar um store de signals (serviço com estado)",
+                  "feito": false
+                }
               ]
             },
             {
               "titulo": "Semana B · Rotas, harnesses e cobertura",
               "itens": [
-                { "texto": "`RouterTestingHarness` e testes de guard/resolver", "feito": false },
-                { "texto": "Component harnesses do CDK e escrever um harness próprio", "feito": false },
-                { "texto": "`ng test --code-coverage` e thresholds mínimos", "feito": false },
-                { "texto": "Rodar a suíte no Vitest e anotar as diferenças", "feito": false }
+                {
+                  "texto": "`RouterTestingHarness` e testes de guard/resolver",
+                  "feito": false
+                },
+                {
+                  "texto": "Component harnesses do CDK e escrever um harness próprio",
+                  "feito": false
+                },
+                {
+                  "texto": "`ng test --code-coverage` e thresholds mínimos",
+                  "feito": false
+                },
+                {
+                  "texto": "Rodar a suíte no Vitest e anotar as diferenças",
+                  "feito": false
+                }
               ]
             }
           ]
@@ -141,24 +264,48 @@
           "objetivo": "Transformar o curso em experiência real na biblioteca de componentes interna e registrar os números obtidos.",
           "notas": "notas/testes-angular/04-biblioteca-componentes.md",
           "recursos": [
-            { "titulo": "Publicar relatórios de cobertura no CI", "url": "https://docs.codecov.com/docs/quick-start" }
+            {
+              "titulo": "Publicar relatórios de cobertura no CI",
+              "url": "https://docs.codecov.com/docs/quick-start"
+            }
           ],
           "sessoes": [
             {
               "titulo": "Specs nos componentes mais usados",
               "itens": [
-                { "texto": "Listar os componentes mais consumidos da biblioteca", "feito": false },
-                { "texto": "Escrever specs para os 5 primeiros", "feito": false },
-                { "texto": "Cobrir estados de acessibilidade (foco, aria, teclado)", "feito": false }
+                {
+                  "texto": "Listar os componentes mais consumidos da biblioteca",
+                  "feito": false
+                },
+                {
+                  "texto": "Escrever specs para os 5 primeiros",
+                  "feito": false
+                },
+                {
+                  "texto": "Cobrir estados de acessibilidade (foco, aria, teclado)",
+                  "feito": false
+                }
               ]
             },
             {
               "titulo": "Cobertura no pipeline e registro",
               "itens": [
-                { "texto": "Gerar relatório de cobertura no build", "feito": false },
-                { "texto": "Rodar os testes no pipeline de CI", "feito": false },
-                { "texto": "Anotar nº de componentes/specs e % de cobertura", "feito": false },
-                { "texto": "Registrar os números para uso futuro", "feito": false }
+                {
+                  "texto": "Gerar relatório de cobertura no build",
+                  "feito": false
+                },
+                {
+                  "texto": "Rodar os testes no pipeline de CI",
+                  "feito": false
+                },
+                {
+                  "texto": "Anotar nº de componentes/specs e % de cobertura",
+                  "feito": false
+                },
+                {
+                  "texto": "Registrar os números para uso futuro",
+                  "feito": false
+                }
               ]
             }
           ]
