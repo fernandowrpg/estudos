@@ -24,7 +24,7 @@ ordem do painel.
 ## Começar um projeto novo
 
 ```bash
-cd projetos/testes-angular/01-jasmine-karma
+cd projetos/testes-angular/02-unidade-integracao
 ng new app --directory . --skip-git
 cp ../../MODELO.md README.md
 ```

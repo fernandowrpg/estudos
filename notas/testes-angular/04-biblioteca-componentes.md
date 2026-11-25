@@ -1,6 +1,6 @@
 # Módulo 4 — Aplicar na biblioteca de componentes
 
-**Prazo:** 26/12/2026 · **Card:** [Testes Angular 4](https://trello.com/c/Su7GDnql)
+**Prazo:** 26/12/2026 · **Card:** [Testes Angular 4](https://trello.com/c/Su7GDnql)  · **Trilha Alura:** nenhuma — fazer depois dos módulos 1 a 3
 
 **Objetivo:** transformar o curso em experiência real na biblioteca de componentes interna e registrar
 os números obtidos.

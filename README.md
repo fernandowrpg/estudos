@@ -10,7 +10,7 @@ onde o progresso fica visível e onde moram as anotações e o código dos exerc
 
 | Trilha | Situação | Quadro no Trello |
 |---|---|---|
-| Testes no Angular | em andamento, detalhada aqui | [quadro](https://trello.com/b/eYC0ASUW/testes-no-angular) |
+| Testes no Angular ([trilha Alura](https://cursos.alura.com.br/app/learning-guide/alura/angular-testes-automatizados-garantir-qualidade-aplicacao)) | em andamento, detalhada aqui | [quadro](https://trello.com/b/eYC0ASUW/testes-no-angular) |
 | Java, Cloud e Observabilidade | a fazer | [quadro](https://trello.com/b/6h6fPQHQ/plano-de-estudos-java-cloud-e-observabilidade) |
 | Next.js | a fazer | [quadro](https://trello.com/b/iqUiX1H9/trilha-nextjs) |
 | Arquitetura de Front-End e System Design | a fazer | [quadro](https://trello.com/b/kBojZ6UB/arquitetura-de-front-end-e-system-design) |
